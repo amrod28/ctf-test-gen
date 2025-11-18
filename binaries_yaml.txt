@@ -1,0 +1,10 @@
+binaries:
+  - name: "overflow_easy"
+    type: "pwn"
+    language: "c"
+    source_template: "templates/overflow.c.j2"
+    compiler: "gcc"
+    flags: ["-O0", "-fno-stack-protector", "-z", "execstack"]
+    defines:
+      BUFFER_SIZE: 32
+      SECRET: "flag{easy_1}"
