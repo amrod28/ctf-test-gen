@@ -1,0 +1,7 @@
+{
+  "template": "password_check.c",
+  "flag": "flag{44ghersj54la}",
+  "cflags": "-O2",
+  "pad": 0,
+  "difficulty": "easy"
+}

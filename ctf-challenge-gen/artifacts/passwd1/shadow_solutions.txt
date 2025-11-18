@@ -1,0 +1,11 @@
+Shadow file solutions
+
+This file lists the  passwords for the users in `artifacts/shadow`.
+Encoding is sha-512
+
+alice -> password123
+bob   -> letmein
+carol -> 123456
+
+Notes:
+- These are intentionally weak entries to make the challenge easily solvable for practice/testing.

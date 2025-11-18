@@ -1,0 +1,7 @@
+version: '3.8'
+services:
+  binaries:
+    build:
+      context: docker_build
+    image: ctf-binaries:latest
+    tty: true
